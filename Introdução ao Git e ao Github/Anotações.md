@@ -13,6 +13,8 @@ Exibe o status dos arquivos dentro do repositório local. Pode informar que tudo
 Adiciona os arquivos Untracked à área de Stage, para depois serem "commitados". O sinal de ponto (.) ou asterisco (*) depois do add fará a adição de todos os arquivos Untracked. Também pode ser usado o comando **git add -A**
 ## git commit -m "comentário"
 Este comando serve para preparar os arquivos para serem enviado para a núvem (repositório remoto). Dentro das aspas deve-se adicionar um comentário resumido de qual alteração está sendo realizada no commit.
+## git remote add origin 'your_url_repository'
+Comando para conectar no repositório remoto.
 ## git push origin main
 Comando utilizado para enviar os arquivos commitados para a núvem.
 ## git pull
